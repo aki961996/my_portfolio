@@ -68,6 +68,9 @@ animatedElements.forEach(el => {
 });
 
 
+
+
+
 document.addEventListener("DOMContentLoaded", function () {
     const downloadBtn = document.getElementById("downloadResume");
   
@@ -75,11 +78,12 @@ document.addEventListener("DOMContentLoaded", function () {
       e.preventDefault();
       const link = document.createElement("a");
       link.href = "assets/AkhileshVadakkekkaraResume.pdf";
-      link.download = "AkhileshVadakkekkaraResume.pdf"; 
+      link.download = "AkhileshVadakkekkaraResume.pdf";
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
     });
   });
+  
   
 
