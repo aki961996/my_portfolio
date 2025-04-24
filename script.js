@@ -18,7 +18,7 @@ document.getElementById('form')
       btn.value = 'Send Email';
     //   alert('Sent!');
     showNotification();
-    document.getElementById('form').reset();
+     document.getElementById('form').reset();
 
     }, (err) => {
       btn.value = 'Send Email';
